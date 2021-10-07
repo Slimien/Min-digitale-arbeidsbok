@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/About me-style.css">
+    <title></title>
+</head>
+
+<body> 
+
+
+    <!--Header-->
+    <header>
+        <div class="grid-container">
+            <div class="grid-item-1">
+                <ul>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="./My work.html">My Work</a></li>
+                    <li><a href="./About me.html">About Me</a></li>
+                    <li><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="blanc">Rick Roll</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+
+    <section>
+        <div class="grid-container">
+
+            <!--Overskrift-->
+            <h1 class="grid-item-5">About Me</h1>
+
+            <!--Om meg-->
+            <div class="grid-item-6">I am a 15 year old male from Bergen, Norway. I study IT and mediaproduction on Amalie skram and i like to play 
+                videogames in my freetime.</div>
+            
+                <!--Sociale medier drodown button-->
+            <div class="grid-item-7">
+                <button onclick="myFunction()" class="dropdown-button">Social media</button>
+                <div id="my-social-media" class="social-media-links">
+                    <a href="https://www.reddit.com/user/mr_fisk085" target="blanc">Reddit</a>
+                    <a href="https://discord.com/channels/@Boblemann" target="blanc">Discord</a>
+                </div>
+            </div>
+        </div>
+
+        <!--Drodown button JS-->
+        <script>
+            function myFunction() {
+                 document.getElementById("my-social-media").classList.toggle("show");
+                }
+
+        </script>
+    </section>
+
+</body>
+</html>
