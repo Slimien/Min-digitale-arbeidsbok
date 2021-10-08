@@ -98,3 +98,60 @@ img.grid-item-8 {
     height: auto;
 }
 
+/*skisser*/
+.grid-item-9 {
+    margin-top: 100px;
+    grid-column: span 12;
+    font-size: 30px;
+    text-align: center;
+}
+
+.grid-item-10 {
+    grid-column: span 12;
+    font-size: 20px;
+    text-align: center;
+}
+
+.grid-item-11{
+    grid-column-start: 2;
+    grid-column-end: 11;
+}
+
+.grid-item-11 img {
+    width: 100%;
+    height: auto;
+    display: block;
+    background-color: white;
+}
+
+
+
+.grid-item-12{
+    margin-top: 50px;
+    grid-column-start: 2;
+    grid-column-end: 11;
+}
+
+
+.grid-item-12 img{
+    width: 100%;
+    height: auto;
+    display: block;
+    background-color: white;
+}
+
+
+.grid-item-13{
+    margin-top: 50px;
+    grid-column-start: 2;
+    grid-column-end: 11;
+}
+
+
+.grid-item-13 img{
+    width: 100%;
+    height: auto;
+    display: block;
+    background-color: white;
+}
+
