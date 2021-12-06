@@ -1,0 +1,233 @@
+/*Background*/
+body {
+    background-color:rgb(0, 0, 0);
+    margin: 0px;
+    margin-top: -15px;
+    color: rgb(175, 175, 175);;
+}
+
+/*Navigation bar*/
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(36, 36, 36);
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.navbar li {
+    float: left;
+    font-size: 20px;
+}
+.navbar li a {
+    display: block;
+    color: whitesmoke;
+    text-align: center;
+    padding: 25px 16px;
+    text-decoration: none;
+}
+.navbar li a:hover {
+    background-color: rgb(15, 15, 15);
+}
+.navbar {
+    display: grid;
+    grid-column: span 12;
+}
+
+/*Grid settup*/
+.grid-container {
+    grid-template-columns:repeat(12, minmax(0, 1fr));
+    display: grid;
+    grid-gap: 10px;
+    color: rgb(175, 175, 175);
+}
+
+
+/*Overskrift*/
+.page-title {
+    display: grid;
+    grid-column: span 12;
+    text-align: center;
+    font-size: 25px;
+    color: rgb(175, 175, 175);
+    margin-top: 100px;
+}
+
+/*litt om siden*/
+.page-description {
+    text-align:left;
+    grid-column: span 12;
+    line-break: auto;
+    font-size: 20px;
+    display: block;
+    background-color: rgb(74, 77, 67);
+    padding:15px;
+    border-radius: 30px;
+}
+
+/*examples*/
+.example-left {
+    display: grid;
+    grid-column-start: 1;
+    grid-column-end: 7;
+    align-items: center;
+    text-align: center;
+}
+/*link*/
+a.example-left {
+    font-size: 20px;
+    color: rgb(175, 175, 175);
+    text-decoration: none;
+    border-style: ridge;
+}
+a.example-left:hover {
+    color: tomato;
+}
+/*bilde*/
+img.example-left {
+    width: 100%;
+    height: auto;
+}
+.example-right {
+    display: grid;
+    grid-column-start: 7;
+    grid-column-end: 13;
+    align-items: center;
+    text-align: center;
+}
+/*link*/
+a.example-right {
+    font-size: 20px;
+    color: rgb(175, 175, 175);
+    text-decoration: none;
+    border-style: ridge;
+}
+a.example-right:hover {
+    color: tomato;
+}
+/*bilde*/
+img.example-right {
+    width: 100%;
+    height: auto;
+}
+
+/*Prosjekter*/
+/*Prosjekt titel*/
+.prosjekt-titel {
+    font-size: 25px;
+    text-align: center;
+    grid-column: span 12;margin-top: 100px;
+}
+
+/*prosjekt-beskrivelse*/
+.prosjekt-beskrivelse {
+    font-size: 20px;
+    grid-column: span 12;
+    line-break: auto;
+    display: block;
+    background-color: rgb(74, 77, 67);
+    padding:15px;
+    border-radius: 30px;
+}
+
+/*Prosjekt-venstre*/
+.Prosjekt-venstre {
+    grid-column-start:0 ;
+    grid-column-end:7 ;
+    margin-top: 15px;
+    
+}
+
+/*Prosjekt-høyre*/
+.Prosjekt-høre{
+    grid-column-start:7 ;
+    grid-column-end:13 ;
+    margin-top: 15px;
+    
+}
+
+/*Prosjekt-center*/
+.Prosjekt-center {
+    grid-column: span 12;
+    line-break: auto;
+    text-align: center;
+    margin-top: 15px;
+}
+
+/*Prosjekt-venstre*/
+img.Prosjekt-venstre {
+    height: auto;
+    width: 100%;
+    text-align: center;
+}
+
+/*Prosjekt-høyre*/
+img.Prosjekt-høyre {
+    height: auto;
+    width: 100%;
+    align-items: center;    
+}
+
+/*Prosjekt-center*/
+img.Prosjekt-center{
+    height: auto;
+    width: 100%;
+}
+
+
+/*Sosiale medier dropdown menu*/
+.grid-item-7 {
+    text-align: center;
+    grid-column-start: 6;
+    grid-column-end: 8;
+    position: relative;
+    display: inline-block;
+}
+.social-media-links {
+    display: none;
+    position: absolute;
+    background-color: rgb(36, 36, 36);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.social-media-links a {
+    color: lightgray;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.social-media-links a:hover {background-color: rgb(10, 10, 10);}
+.show {display: block;}
+
+
+/*Footer*/
+.footer-left{
+    font-size: 20px;
+    grid-column: span 4;
+}
+
+  
+.footer-center{
+    font-size: 20px;
+    grid-column: span 4;
+}
+
+  
+.footer-right{
+    font-size: 20px;
+    grid-column: span 4;
+}
+
+footer a{
+    color: white;
+}
+  footer {
+    background-color:rgb(36, 36, 36) ;
+    width: 100%;
+    bottom: 0;
+}
+
+
+
