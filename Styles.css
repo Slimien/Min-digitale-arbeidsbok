@@ -132,17 +132,17 @@ img.example-right {
 }
 
 /*Prosjekt-venstre*/
-.Prosjekt-venstre {
-    grid-column-start:0 ;
-    grid-column-end:7 ;
+.Prosjekt-Venstre {
+    grid-column-start:1;
+    grid-column-end:7;
     margin-top: 15px;
     
 }
 
 /*Prosjekt-høyre*/
-.Prosjekt-høre{
-    grid-column-start:7 ;
-    grid-column-end:13 ;
+.Prosjekt-Høyre{
+    grid-column-start:7;
+    grid-column-end:13;
     margin-top: 15px;
     
 }
@@ -156,14 +156,14 @@ img.example-right {
 }
 
 /*Prosjekt-venstre*/
-img.Prosjekt-venstre {
+img.Prosjekt-Venstre{
     height: auto;
     width: 100%;
-    text-align: center;
+    align-items: center;
 }
 
 /*Prosjekt-høyre*/
-img.Prosjekt-høyre {
+img.Prosjekt-Høyre {
     height: auto;
     width: 100%;
     align-items: center;    
